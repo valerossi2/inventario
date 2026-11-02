@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" role="img" aria-label="Ilustración de una tabla de inventario con artículos y cajas de almacén">
+  <ellipse cx="290" cy="442" rx="240" ry="14" fill="#dbeafe"/>
+
+  <rect x="60" y="64" width="440" height="300" rx="22" fill="#ffffff" stroke="#e3eaf4" stroke-width="2"/>
+  <path d="M60 120V86a22 22 0 0 1 22-22h396a22 22 0 0 1 22 22v34z" fill="#f4f8fd"/>
+  <line x1="60" y1="120" x2="500" y2="120" stroke="#e3eaf4" stroke-width="2"/>
+  <circle cx="88" cy="92" r="6" fill="#cbd5e1"/>
+  <circle cx="108" cy="92" r="6" fill="#cbd5e1"/>
+  <circle cx="128" cy="92" r="6" fill="#cbd5e1"/>
+  <rect x="300" y="82" width="170" height="20" rx="10" fill="#e3eaf4"/>
+
+  <g>
+    <rect x="84" y="140" width="36" height="36" rx="10" fill="#dbeafe"/>
+    <rect x="94" y="150" width="16" height="16" rx="4" fill="#2563eb"/>
+    <rect x="136" y="146" width="120" height="9" rx="4.5" fill="#0b2545" opacity=".85"/>
+    <rect x="136" y="162" width="170" height="7" rx="3.5" fill="#cbd5e1"/>
+    <rect x="380" y="146" width="96" height="24" rx="12" fill="#eff5ff"/>
+    <rect x="396" y="154" width="64" height="8" rx="4" fill="#2563eb"/>
+    <line x1="84" y1="188" x2="476" y2="188" stroke="#eef3fa" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="84" y="198" width="36" height="36" rx="10" fill="#dbeafe"/>
+    <rect x="94" y="208" width="16" height="16" rx="4" fill="#38bdf8"/>
+    <rect x="136" y="204" width="96" height="9" rx="4.5" fill="#0b2545" opacity=".85"/>
+    <rect x="136" y="220" width="150" height="7" rx="3.5" fill="#cbd5e1"/>
+    <rect x="380" y="204" width="96" height="24" rx="12" fill="#eff5ff"/>
+    <rect x="396" y="212" width="48" height="8" rx="4" fill="#2563eb"/>
+    <line x1="84" y1="246" x2="476" y2="246" stroke="#eef3fa" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="84" y="256" width="36" height="36" rx="10" fill="#dbeafe"/>
+    <rect x="94" y="266" width="16" height="16" rx="4" fill="#2563eb"/>
+    <rect x="136" y="262" width="130" height="9" rx="4.5" fill="#0b2545" opacity=".85"/>
+    <rect x="136" y="278" width="110" height="7" rx="3.5" fill="#cbd5e1"/>
+    <rect x="380" y="262" width="96" height="24" rx="12" fill="#eff5ff"/>
+    <rect x="396" y="270" width="58" height="8" rx="4" fill="#2563eb"/>
+    <line x1="84" y1="304" x2="476" y2="304" stroke="#eef3fa" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="84" y="314" width="36" height="36" rx="10" fill="#dbeafe"/>
+    <rect x="94" y="324" width="16" height="16" rx="4" fill="#38bdf8"/>
+    <rect x="136" y="320" width="104" height="9" rx="4.5" fill="#0b2545" opacity=".85"/>
+    <rect x="136" y="336" width="160" height="7" rx="3.5" fill="#cbd5e1"/>
+    <rect x="380" y="320" width="96" height="24" rx="12" fill="#eff5ff"/>
+    <rect x="396" y="328" width="40" height="8" rx="4" fill="#2563eb"/>
+  </g>
+
+  <g>
+    <rect x="374" y="16" width="160" height="66" rx="16" fill="#0b2545"/>
+    <circle cx="406" cy="49" r="15" fill="#38bdf8"/>
+    <polyline points="399,49 404,54 414,43" fill="none" stroke="#0b2545" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="432" y="38" width="84" height="9" rx="4.5" fill="#ffffff" opacity=".92"/>
+    <rect x="432" y="54" width="54" height="7" rx="3.5" fill="#7dd3fc"/>
+  </g>
+
+  <g>
+    <polygon points="86,330 146,360 86,390 26,360" fill="#93c5fd"/>
+    <polygon points="26,360 86,390 86,452 26,422" fill="#3b82f6"/>
+    <polygon points="146,360 86,390 86,452 146,422" fill="#1d4ed8"/>
+    <line x1="86" y1="331" x2="86" y2="389" stroke="#dbeafe" stroke-width="8"/>
+  </g>
+  <g transform="translate(400 120) scale(.7)">
+    <polygon points="86,330 146,360 86,390 26,360" fill="#bae6fd"/>
+    <polygon points="26,360 86,390 86,452 26,422" fill="#38bdf8"/>
+    <polygon points="146,360 86,390 86,452 146,422" fill="#0284c7"/>
+    <line x1="86" y1="331" x2="86" y2="389" stroke="#f0f9ff" stroke-width="8"/>
+  </g>
+</svg>
