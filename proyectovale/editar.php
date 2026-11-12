@@ -3,7 +3,7 @@ require 'conexion.php';
 
 if(isset($_POST['actualizar'])) {
     $sql="UPDATE productos
-         SET articulo=?,descripcion=?,precio_costo=?,precio_venta=?,itbis=?
+         SET articulo=?,descripcion=?,precio_costo=?,precio_venta=?,itbis=?,valor_total=?
          WHERE id=?";
 
 $pdo->prepare($sql)->execute([
@@ -12,6 +12,7 @@ $pdo->prepare($sql)->execute([
     $_POST['precio_costo'],
     $_POST['precio_venta'],
     $_POST['itbis'],
+    $_POST['valor_total'],
     $_POST['id'],
     ]);
 

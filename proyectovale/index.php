@@ -15,21 +15,42 @@ $productos = $pdo->query("SELECT * FROM productos ORDER BY id")->fetchAll(PDO::F
 </head>
 <body>
     <nav>
-        <a href="index.php?s=inicio class="<?= $s == 'inicio'    ? 'activo' : '' ?>">inicio</a>
+        <a href="index.php?s=inicio" class="<?= $s == 'inicio'    ? 'activo' : '' ?>">inicio</a>
         <a href="index.php?s=registrar" class="<?= $s == 'registrar' ? 'activo' : '' ?>">Registrar Inventario</a>
         <a href="index.php?s=ver"       class="<?= $s == 'ver'       ? 'activo' : '' ?>">Ver Inventario</a>
         <a href="index.php?s=modificar" class="<?= $s == 'modificar' ? 'activo' : '' ?>">Modificar Inventario</a>
     </nav>
 
-    <?php if ($s == 'inicio'): ?>
 
     <main>
-    <h1>Control de Almacén</h1>
-    <p>
-        El control de almacén consiste en registrar y vigilar los artículos que tiene un negocio,
-        para saber en todo momento qué hay disponible, cuánto costó cada uno y a qué precio se vende.
-        Llevarlo bien evita pérdidas, compras innecesarias y errores al vender.
-    </p>
+    <?php if ($s == 'inicio'): ?>
+
+    
+    <section class="hero">
+        <h1>Control de almacén,<br></h1>
+        <p class="lead">
+            Registra tus artículos y controla costos, precios e ITBIS en un solo lugar.
+        </p>
+        <div class="hero-actions">
+            <a class="btn btn-primary" href="index.php?s=registrar">Registrar inventario</a>
+            <a class="btn btn-ghost" href="index.php?s=ver">Ver inventario</a>
+        </div>
+    </section>
+ 
+    <section class="stats">
+        <div class="stat">
+            <span>Artículos registrados</span>
+            <strong><?= count($productos) ?></strong>
+        </div>
+        <div class="stat">
+            <span>Costo total</span>
+            <strong>RD$ <?= number_format(array_sum(array_column($productos, 'precio_costo')), 2) ?></strong>
+        </div>
+        <div class="stat">
+            <span>Valor total con ITBIS</span>
+            <strong>RD$ <?= number_format(array_sum(array_column($productos, 'valor_total')), 2) ?></strong>
+        </div>
+    </section>
 
     <?php elseif ($s == 'registrar'): ?>
 
